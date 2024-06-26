@@ -1,0 +1,186 @@
+@media(max-width:84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+}
+
+@media(max-width:75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-primary {
+    font-size: 2.4rem;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+
+  .text-price {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2.4rem;
+  }
+
+  .info {
+    font-size: 2.5rem;
+  }
+
+  .icons {
+    width: 6.4rem;
+  }
+
+}
+
+@media (max-width:50em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading-primary {
+    font-size: 2.2rem;
+  }
+
+  .hero-text {
+    font-size: 2.5rem;
+  }
+
+  .main-header {
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .hero {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .section-testimonials {
+    padding: 4.6rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+
+  .header-btn {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+}
+
+@media(max-width:44em) {
+  .testimonials {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6.4rem;
+  }
+
+  .section-testimonials {
+    padding: 3.3rem;
+  }
+
+  .testimonial-text {
+    font-size: 2.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
+    margin-top: 3.2rem;
+  }
+
+  .heading-footer {
+    font-size: 1.7rem;
+  }
+
+  .work-section2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .price {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .heading-secondary {
+    margin-top: 4.8rem;
+  }
+
+  .heading-secondary .mt3 {
+    margin-top: 4.8rem;
+  }
+
+  .info {
+    font-size: 1.3rem;
+  }
+
+  .footer-text {
+    font-size: 1.8rem;
+  }
+
+  .hero-text {
+    font-size: 2.0rem;
+  }
+
+  .social-link {
+    gap: 2.4rem
+  }
+
+  .image-box {
+    margin-left: 5rem;
+  }
+}

@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  color: #333;
+}
+
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.heading-primary {
+  margin-bottom: 2.4rem;
+  line-height: 1.2;
+  font-size: 4.4rem;
+}
+
+.heading-secondary {
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 4.8rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* portfolio */
+.section-portfolio {
+  background-color: #FFC0CB;
+  padding: 2.4rem 2.4rem;
+}
+
+.portolio-sec {
+  grid-template-columns: repeat(1, 1fr);
+  border: 2px solid white;
+}
+
+/* header-section */
+.main-header {
+  background-color: #FFC0CB;
+  display: flex;
+  justify-content: space-between;
+  height: 9.6rem;
+  font-size: 2.4rem;
+  padding: 2.4rem 2.4rem;
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.main-nav-li-items {
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.main-nav-link:active,
+.main-nav-link:hover {
+  color: #4c3a3d;
+}
+
+.logo {
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+
+.heading-list-items {
+  list-style: square;
+  margin-left: 2.4rem;
+}
+
+.logo-img {
+  width: 6.8rem;
+}
+
+/* mobile navigation */
+.header-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
+
+
+
+/* hero section */
+.hero-section {
+  background-color: #FFC0CB;
+}
+
+.heading-list {
+  list-style: none;
+  margin-left: 2.4rem;
+}
+
+.header-icon {
+  align-self: center;
+  width: 3.2rem;
+}
+
+.hero {
+  max-width: 130rem;
+  padding: 2.4rem 3.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.hero-text {
+  margin-top: 3.2rem;
+  font-size: 2rem;
+  color: #4c3a3d;
+  font-weight: 500;
+}
+
+/* rate card section */
+.section-pricing {
+  margin-top: 3.2rem;
+}
+
+.image-pricing {
+  width: 100%;
+}
+
+.pricing {
+  border-radius: 8px;
+  box-shadow: 0 2.4rem 2.2rem rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.pricing:hover {
+  transform: translateY(-25px);
+}
+
+.text {
+  padding: 2.4rem;
+}
+
+.text-description {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.text-price {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.mt-3 {
+  margin-top: 6.4rem;
+}
+
+
+
+/* my work section */
+.section-work {
+  margin-top: 6.4rem;
+}
+
+.work-image {
+  width: 100%;
+}
+
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.work-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+figure img {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+figure img:hover {
+  transform: scale(1.1);
+}
+
+
+
+/* testimonial-section */
+.section-testimonials {
+  margin-top: 3.2rem;
+  font-family: sans-serif;
+  margin-bottom: 12.8rem;
+  background-color: #FFC0CB;
+  padding: 9.6rem;
+}
+
+.img-testimonial {
+  border-radius: 50%;
+  height: 5.4rem;
+  width: 5.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+
+.testimonial-name {
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-position {
+  font-size: 1.2rem;
+}
+
+/* footer scetion */
+.footer-section {
+  border-top: 1px solid #eee;
+  /* margin-top: 2.4rem; */
+  padding: 12.8rem 0;
+}
+
+.icons {
+  width: 2.4rem;
+  fill: #555;
+}
+
+.social-link {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.heading-footer {
+  margin-bottom: 3.2rem;
+}
+
+.contact-heading {
+  margin-bottom: 3.2rem;
+}
+
+.info {
+  color: #666;
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.footer-img {
+  width: 10rem;
+}
